@@ -15,6 +15,9 @@
 ### See branches
 ```git branch```
 
+### Create branch from another branch
+```git branch {newBranchName} {oldBranchName}```
+
 ### Git auth by deploy key
 ```
 ssh-keygen -t ed25519 -C "email@email.com"
