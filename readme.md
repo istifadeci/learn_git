@@ -7,7 +7,7 @@
 ```git remote add origin {repoAddress}```
 
 ### Add file to git
-```git add readme.md```
+```git add {fileName} or git add .```
 
 ### Commit file to git
 ```git commit -m 'first message'```
@@ -31,3 +31,6 @@ cat ~/.ssh/id_ed25519.pub
 
 ### Push files to GIT
 ```git push origin {branchName}```
+
+### Switch branches
+```git checkout {branchName}```
